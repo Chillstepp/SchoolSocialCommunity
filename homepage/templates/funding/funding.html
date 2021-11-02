@@ -568,39 +568,36 @@
                             <a class="opts_account" href="#"> <img  src="/static/assets/images/post/{{now_avatar}}" alt=""></a>
 
                             <!-- profile dropdown-->
-                            <div uk-dropdown="mode:click ; animation: uk-animation-slide-bottom-small"
-                                class="dropdown-notifications rounded display-hidden">
+                           <div uk-dropdown="mode:click ; animation: uk-animation-slide-bottom-small"
+                               class="dropdown-notifications rounded display-hidden">
 
-                                <!-- User Name / Avatar -->
-                                <a href="timeline.html">
+                               <!-- User Name / Avatar -->
+                               <!-- User Name / Avatar -->
+                               <a href="timeline.html">
 
-                                    <div class="dropdown-user-details">
+                                   <div class="dropdown-user-details">
 
-                                        <div class="dropdown-user-cover">
-                                            <img src="/static/assets/images/avatars/profile-cover.jpg" alt="">
-                                        </div>
-                                        <div class="dropdown-user-avatar">
-                                            <img src="/static/assets/images/post/{{now_avatar}}" alt="">
-                                        </div>
-                                        <div class="dropdown-user-name"> {{now_user}} </div>
-                                    </div>
+                                       <div class="dropdown-user-cover">
+                                           <img src="/static/assets/images/avatars/profile-cover.jpg" alt="">
+                                       </div>
+                                       <div class="dropdown-user-avatar">
+                                           <img src="/static/assets/images/post/{{now_avatar}}" alt="">
+                                       </div>
+                                       <div class="dropdown-user-name"> {{now_user}} </div>
+                                   </div>
 
-                                </a>
+                               </a>
 
-                                <ul class="dropdown-user-menu">
+                               <ul class="dropdown-user-menu">
+                                   <li><a href="http://127.0.0.1:8000/timeline"> <i class="fas fa-user-cog"></i> 个人主页</a></li>
 
-                                    </li>
-                                    <li><a href="http://127.0.0.1:8000/login"> <i class="fas fa-sign-out-alt"></i>Log Out</a>
-                                    </li>
-                                </ul>
+                                   </li>
+                                   <li><a href="http://127.0.0.1:8000/login/"> <i class="fas fa-sign-out-alt"></i>Log Out</a>
+                                   </li>
+                               </ul>
 
-                                <hr class="m-0">
-                                <ul class="dropdown-user-menu">
-
-                                </ul>
-
-                            </div>
-
+                               <hr class="m-0">
+                           </div>
 
                         </div>
 
