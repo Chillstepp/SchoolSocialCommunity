@@ -471,7 +471,7 @@ html body {-webkit-font-smoothing: antialiased;overflow-x: hidden;padding: .75re
 
 .bg-myself,
 .bg-myself-hover:hover {
-  	background-image:url('1234.jpg');
+  	background-image:url('bg.jpg');
   	background-size: 100% 100%;
 }
 
